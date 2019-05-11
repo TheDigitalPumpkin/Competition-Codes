@@ -7,11 +7,11 @@ int main()
     scanf("%d", &t);
     
     while(t--) 
-	{
+    {
         scanf("%d", &n);
         
         for (int i = 0; i < n; i++) 
-			scanf("%d", dados + i);
+	scanf("%d", dados + i);
         
         int resultado = 0, soma = 0;
         
